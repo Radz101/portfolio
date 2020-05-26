@@ -390,14 +390,7 @@ input, select, textarea {
 	}
 
 
-    .toolkit_icons {
-        text-align: center;
-    }
-
-    .icons {
-        text-align: center;
-        padding: 0 0 0 0;
-    }
+   
 
    
 
@@ -998,6 +991,7 @@ input, select, textarea {
 
 				.row.aln-center {
 					justify-content: center;
+                    
 				}
 
 				.row.aln-right {
@@ -1243,6 +1237,7 @@ input, select, textarea {
 
 				.row.aln-center {
 					justify-content: center;
+                    max-width: 500;
 				}
 
 				.row.aln-right {
@@ -2965,25 +2960,55 @@ input, select, textarea {
 
 /* Icons */
 
+ .toolkit_icons {
+        text-align: center;
+        
+    }
+
+    .icons {
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+
 	ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
-/*        display: flex;*/
 	}
 
     .media-tools{
         display: flex;
-        align-content: center;
+        text-align: center;
+        list-style: none;
+        
+    }
     
-}
-
+    
+   .container{
+        display: inline-block;
+        vertical-align: middle;
+        
+/*        padding: 0 0.5rem 0 0; */
+/*
+        margin-left: auto;
+        margin-right: auto;
+*/
+        background-color: aqua;
+    }
 
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.5rem 0 0;
 			vertical-align: middle;
 		}
+
+        ul.micons li{
+            display: inline-block;
+			padding: 0 0.5rem 0 0;
+			vertical-align: middle;
+        }
+
+
 
 			ul.icons li:last-child {
 				padding-right: 0;
