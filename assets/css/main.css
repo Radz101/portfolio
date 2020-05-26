@@ -389,6 +389,18 @@ input, select, textarea {
 		top: -0.5rem;
 	}
 
+
+    .toolkit_icons {
+        text-align: center;
+    }
+
+    .icons {
+        text-align: center;
+        padding: 0 0 0 0;
+    }
+
+   
+
 	blockquote {
 		border-left: solid 4px;
 		font-style: italic;
@@ -2957,7 +2969,15 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+/*        display: flex;*/
 	}
+
+    .media-tools{
+        display: flex;
+        align-content: center;
+    
+}
+
 
 		ul.icons li {
 			display: inline-block;
@@ -3009,6 +3029,7 @@ input, select, textarea {
 			padding-left: 0.5rem;
 		}
 
+       
 		ul.divided {
 			list-style: none;
 			padding-left: 0;
