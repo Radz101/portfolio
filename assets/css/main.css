@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,200,300,600,700,800,900, Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900");
+@import url(https://fonts.google.com/specimen/Raleway?query=rale#standard-styles);
+
 
 /*
 	Massively by HTML5 UP
@@ -301,9 +303,9 @@ input, select, textarea {
 	}
     
     body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
-		font-weight: 300;
-		font-size: rem;
+		font-family: "Raleway", "Merriweather", Georgia, serif;
+		font-weight: 400;
+		font-size: 1rem;
 		line-height: 1.8;
 	}
 
@@ -336,11 +338,11 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: sans-serif;
-		font-weight: 600;
-		line-height: 1.5;
+		font-family: "Raleway";
+		font-weight: 700;
+		line-height: 0.2;
 		letter-spacing: 0.050em;
-		text-transform: capitalize;
+		text-transform: uppercase;
 		margin: 0 0 1rem 0;
 	}
 
@@ -363,7 +365,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.25rem;
+		font-size: 1.20rem;
 		margin: 0 0 1.5rem 0;
 	}
 
@@ -462,12 +464,12 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #454545;
+		color: #111111;
         font-weight: 200px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #454545;
+		color: #111111;
 	}
 
 	blockquote {
@@ -2241,7 +2243,7 @@ input, select, textarea {
 		border-radius: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -2476,7 +2478,7 @@ input, select, textarea {
 
 	label {
 		display: block;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
@@ -3117,7 +3119,7 @@ input, select, textarea {
         font-style: normal;
         font-size: 2rem;
         font-weight: 100;
-        color: #454545;
+        color: #111111;
         line-height: 55px;
     }
 */
@@ -3136,8 +3138,8 @@ input, select, textarea {
 
 		header > p {
 			font-style: normal;
-            font-family: sans-serif;
-            font-weight: 100;
+            font-family: "raleway";
+            font-weight: 200;
             font-size: 2rem;
             line-height: 75px;
 		}
@@ -3176,15 +3178,15 @@ input, select, textarea {
 				margin-top: 0;
 				text-align: center;
                 line-height: 60px;
-                color: #454545;
+                color: #111111;
+                font-size: 1.5rem;
 			}
     
             	header.major > p em {
 				margin-top: 0;
 				text-align: center;
                 font-style: normal;
-                font-size: 1.4rem;
-                color: #454545;
+                color: #111111;
 			}
 
 
@@ -3253,7 +3255,7 @@ input, select, textarea {
 		}
 
 		table th {
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Raleway", Helvetica, sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
@@ -3353,7 +3355,7 @@ input, select, textarea {
 			transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
 			border: solid 2px;
 			display: inline-block;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Raleway", Helvetica, sans-serif;
 			font-size: 0.8rem;
 			font-weight: 900;
 			height: 3rem;
@@ -3722,7 +3724,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		color: #454545;
+		color: #111111;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3756,7 +3758,7 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #454545;
+			color: #111111;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3794,9 +3796,9 @@ input, select, textarea {
 			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			pointer-events: auto;
 			border-style: solid;
-			border-color: #454545;
+			border-color: #111111;
 			border-width: 3px !important;
-			font-family: "Source Sans Pro", Helvetica, sans-serif, 'Amatic SC';
+			font-family: "Raleway", Helvetica, sans-serif, 'Amatic SC';
 			font-size: 1.70rem;
 			font-weight: 500;
 			letter-spacing: 0.075em;
@@ -3878,7 +3880,7 @@ input, select, textarea {
 		}
 
 		#nav a {
-			color: #454545;
+			color: #b1b1b1;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
@@ -3921,7 +3923,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
-			font-family: sans-serif;
+			font-family: "raleway";
 			font-weight: 300;
 			letter-spacing: 0.050em;
 			list-style: none;
@@ -3945,7 +3947,7 @@ input, select, textarea {
 					font-size: 0.7rem;
 					outline: none;
 					padding: 0 1rem;
-                    font-weight: 500;
+                    font-weight: 650;
 				}
 
 					#nav ul.links li a:hover {
@@ -4618,9 +4620,9 @@ input, select, textarea {
 	#copyright {
 		color: #ffffff;
 		position: relative;
-		color: #454545;
+		color: #111111;
 		cursor: default;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -4730,7 +4732,7 @@ input, select, textarea {
 		right: 0.75rem;
 		border: 0;
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Raleway", Helvetica, sans-serif;
 		font-size: 0.9rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
@@ -4822,7 +4824,7 @@ input, select, textarea {
 				#navPanel .links li a {
 					border-bottom: 0;
 					display: block;
-					font-family: "Source Sans Pro", Helvetica, sans-serif;
+					font-family: "Raleway", Helvetica, sans-serif;
 					font-size: 0.9rem;
 					font-size: 0.9rem;
 					font-weight: 900;
