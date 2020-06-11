@@ -96,7 +96,10 @@ input, select, textarea {
   width: 100%;
   padding: 5px;
 }
+backgroundtext_color{
 
+    background-color: white;
+    }
 .prev, .next {
   cursor: pointer;
   position: absolute;
