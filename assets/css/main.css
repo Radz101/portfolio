@@ -39,6 +39,21 @@ body {
     text-align: center;
     
     }
+.aboutme-resume-click {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 16px;
+    border: 2px solid #ff0089;
+    border-radius: 5px;
+    background-color:transparent;
+    cursor: pointer;
+    text-decoration: none;
+/*    font-family: Karla, sans-serif;*/
+    color: #ff0089;
+}
+
+.aboutme-resume-click:hover{background-color: #ff0089;
+color: white! important;}
 
 ol, ul {
 	list-style: none;
@@ -3860,7 +3875,7 @@ backgroundtext_color{
 /* Nav */
 
 	#nav {
-		color: gr;
+		color:  #ff0089 ;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
