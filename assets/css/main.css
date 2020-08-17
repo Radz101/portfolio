@@ -856,19 +856,10 @@ backgroundtext_color{
 					margin-left: 58.33333%;
 				}
 
-				.row > .col-8-xlarge {
-                    
-                    
+				.row > .col-8-xlarge {                                
 					width: 66.66667%;
 				}
             
-            
-/*
-            
-            .position_aboutme{
-                float: center;
-            }
-*/
 
 				.row > .off-8-xlarge {
 					margin-left: 66.66667%;
@@ -3981,7 +3972,7 @@ backgroundtext_color{
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.7rem;
+					font-size: 0.85rem;
 					outline: none;
 					padding: 0 1rem;
                     font-weight: 650;
