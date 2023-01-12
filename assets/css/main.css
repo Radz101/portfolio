@@ -383,10 +383,10 @@ backgroundtext_color{
 	}
 
 	h2 {
-		font-size: 1rem;
-		line-height: 0.8;
+		font-size: 1.2rem;
+		line-height: 1.1;
 		margin: 0 0 1.5rem 0;
-        font-weight: 400;
+        
 	}
 
 	h3 {
@@ -1936,7 +1936,7 @@ backgroundtext_color{
 				}
 
 					.row > * {
-						padding: 0 0 0 1.5rem;
+						padding: 0 0 0 0;
 					}
 
 					.row.gtr-uniform {
@@ -3194,7 +3194,7 @@ backgroundtext_color{
 		}
 
 		header.major {
-			margin: 0 0 4rem 0;
+			margin: 0 0 0rem 0;
 			text-align: center;
 		}
 
@@ -3844,7 +3844,7 @@ backgroundtext_color{
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: 14rem;
+				height: 4rem;
 				padding-bottom: 4rem;
 			}
 
